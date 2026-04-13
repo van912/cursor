@@ -1,3 +1,4 @@
+return function(state)
 -- MenuGroup:AddButton("Unload", function() Library:Unload() end) -- Перенес анлоад вниз для корректной очистки
 
 -- =========================================================
@@ -161,3 +162,4 @@ ThemeManager:ApplyToTab(Tabs.Settings)
 SaveManager:LoadAutoloadConfig()
 
 script.Destroying:Connect(Cleanup)
+end
